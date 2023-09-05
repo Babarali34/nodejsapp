@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager - Tasks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <div class="container">
+    <h1>Tasks:</h1>
+  <ul> 
+
+    <% tasks.forEach(task => { %>
+
+        <li><%= task %></li>
+        
+    <%}); %>
+
+  </ul>
+  <a class="btn" href="/">Go Back</a>
+
+   </div>
+</body>
+</html>
